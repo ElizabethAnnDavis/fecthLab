@@ -129,8 +129,6 @@ async function retrieveBreedInformation() {
     infoDump.innerHTML = breedDesciption;
 
     Carousel.start();
-
-    
   } catch (err) {
     console.log(err);
   }
